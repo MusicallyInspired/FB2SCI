@@ -78,7 +78,7 @@ int main(int argc, char* argv[]) {
     ifstream input_file2(input_filename2, ios::binary);
 
     // Check if bankfile2 exists
-    if (!check_file_exists(input_filename1)) {
+    if (!check_file_exists(input_filename2)) {
         cout << "Error: file " << input_filename2 << " not found" << endl;
         exit(EXIT_FAILURE);
     }
